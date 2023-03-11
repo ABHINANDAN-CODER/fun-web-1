@@ -7,6 +7,9 @@
 body{
       border: 4px solid;
 }
+h1{
+      color: #420806;
+}
 img{
       width: 100%;
 }
@@ -19,68 +22,35 @@ img ::after{
       flex-wrap: wrap;
       height: 100%;
 }
-
-#a{
-      //background:url("https://cdn-icons-png.flaticon.com/512/6437/6437429.png") ;
-
+red{
+      color: red;
 }
-#b{
-      background-color: #b95a5a;
 
-}
-.c{
-      background-color: red;
-
-}
-.d{
-      background-color: rgb(34, 29, 29);
-
-}
-.e{
-      background-color: #f40000;
-
-}
-.f{
-      background-color: rgb(177, 52, 52);
-
-}
-.g{
-      background-color: rgb(38, 23, 23);
-
-}
-.h{
-      background-color: rgb(167, 28, 28);
-
-}
-.i{
-      background-color: rgb(32, 26, 26);
-
-}
-.j{
-      background-color: rgb(230, 106, 106);
-
-}
-.k{
-      background-color: rgb(219, 57, 57);
-
-}
-.l{
-      background-color: rgb(6, 6, 6);
-
-}
 .size{
       height: 20vh;
       width: 20vh;
       visibility: hidden;
-      cursor: pointer;
-
-      
+      cursor: pointer; 
 }
 
 .show{
       visibility: visible;
 }
 .show::after{
+      content: "no";
+      color: green;
+      position: relative;
+      bottom: 70px;
+      left: 30px;
+      font-size: 50px;
+      font-weight: bold;
+      
+}
+.yes{
+      visibility: visible;
+      margin: auto;
+}
+.yes::after{
       content: "Yes";
       color: green;
       position: relative;
