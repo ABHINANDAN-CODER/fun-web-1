@@ -43,7 +43,7 @@ red{
       visibility: visible;
 }
 .show::after{
-      content: "no";
+      content: "NO";
       color: rgba(55, 255, 0, 0.8);
       position: relative;
       bottom: 70px;
