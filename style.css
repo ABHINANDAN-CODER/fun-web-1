@@ -35,7 +35,7 @@ red{
 .size{
       height: 100px;
       width: 100px;
-      visibility: hidden;
+      //visibility: hidden;
       cursor: pointer; 
 }
 
