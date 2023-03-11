@@ -26,17 +26,16 @@ red{
       color: red;
 }
 .ysize{
-      .size{
-            height: 20vh;
-            width: 100px;
-            visibility: hidden;
-            cursor: pointer; 
-      }
+      height: 20vh;
+      width: 100px;
+      visibility: hidden;
+       cursor: pointer; 
+      
 }
 .size{
       height: 100px;
       width: 100px;
-      visibility: hidden;
+      //visibility: hidden;
       cursor: pointer; 
 }
 
