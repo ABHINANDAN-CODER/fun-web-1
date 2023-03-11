@@ -25,10 +25,17 @@ img ::after{
 red{
       color: red;
 }
-
+.ysize{
+      .size{
+            height: 20vh;
+            width: 100px;
+            visibility: hidden;
+            cursor: pointer; 
+      }
+}
 .size{
-      height: 20vh;
-      width: 20vh;
+      height: 100px;
+      width: 100px;
       visibility: hidden;
       cursor: pointer; 
 }
@@ -38,12 +45,13 @@ red{
 }
 .show::after{
       content: "no";
-      color: green;
+      color: rgba(55, 255, 0, 0.8);
       position: relative;
       bottom: 70px;
       left: 30px;
       font-size: 50px;
       font-weight: bold;
+      
       
 }
 .yes{
@@ -51,12 +59,11 @@ red{
       margin: auto;
 }
 .yes::after{
-      content: "Yes";
-      color: green;
+      content: "YES";
+      color: rgb(241, 60, 14);
       position: relative;
-      bottom: 70px;
-      left: 30px;
-      font-size: 50px;
+      bottom: 25px;
+      left: 20px;
+      font-size: 35px;
       font-weight: bold;
-      
 }

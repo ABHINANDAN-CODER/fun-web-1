@@ -1,3 +1,6 @@
+function clicked(){
+      window.open('https://pay.upilink.in/pay/ambaniji@jio');
+}
 function start(){
       var target = document.getElementById('f');
       target.classList.add('show');
